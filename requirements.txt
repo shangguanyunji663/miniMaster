@@ -1,0 +1,11 @@
+# miniMaster 依赖清单（Python 3.12，项目内 .conda 环境，实测版本 pin 死）
+
+# ---- 运行时 ----
+openai==1.109.1            # 模型调用层（OpenAI 兼容 Function Call 协议）
+python-dotenv==1.2.3       # .env 配置加载（凭据只经环境变量注入，不入源码）
+rich==15.0.0               # 终端彩色过程输出
+
+# ---- 测试与开发 ----
+pytest==9.1.1
+pytest-cov==7.0.0
+ruff==0.14.3

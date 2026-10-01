@@ -1,0 +1,26 @@
+# 项目内置环境
+.conda/
+
+# 凭据配置（只保留 .env.example 模板）
+.env
+
+# 运行产物
+runs/
+workspaces/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# 覆盖率与会话状态（不入库）
+.coverage
+*.egg-info/
+.mimosa/
+.zcode/
+.zcodeignore

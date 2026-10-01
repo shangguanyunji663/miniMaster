@@ -1,0 +1,23 @@
+{
+  "tag": "full-0728-r2",
+  "rows": [
+    {
+      "task": "parallel-files",
+      "difficulty": "medium",
+      "agent_success": true,
+      "check_passed": true,
+      "success": true,
+      "check_detail": "10 行（Fizz×5, Buzz×5）",
+      "rounds": 1,
+      "attempts": 5,
+      "requests": 16,
+      "tokens": 35257,
+      "guard_blocks": 0,
+      "retries": 0,
+      "replans": 0,
+      "live_trims": 0,
+      "duration_s": 591.1,
+      "trace": "D:\\PythonProject\\miniMaster\\eval\\results\\full-0728-r2\\parallel-files-202212\\trace.jsonl"
+    }
+  ]
+}

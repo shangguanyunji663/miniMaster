@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimaster"
+version = "0.2.0"
+description = "Planner-Executor-Validator 三层嵌套循环 Harness 多智能体执行框架"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "openai==1.109.1",
+    "python-dotenv==1.2.3",
+    "rich==15.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-cov==7.0.0",
+    "ruff==0.14.3",
+]
+
+[project.scripts]
+minimaster = "minimaster.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["minimaster*"]
